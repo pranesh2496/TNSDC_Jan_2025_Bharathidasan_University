@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+}
+header {
+  background-color: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  height: 200px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.battery-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 10px;
+  flex-direction: column;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.item {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333;
+  margin-right: 20px;
+}
+
+span {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: purple;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+  padding: 10px;
+  border: 1px solid purple;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
